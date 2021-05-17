@@ -58,7 +58,7 @@
 
 section {
     width: 70%;
-    height: fit-content;
+    height: 40vh;
     align-self: center;
 }
 
@@ -76,6 +76,10 @@ a {
     font-weight: 600;
     text-decoration: none;
     color: hsl(0, 0%, 0%);
+    display: inline-block;
+    position: absolute;
+    bottom: 10vh;
+    left: 15%;
 }
 
 a:hover {

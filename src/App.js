@@ -3,6 +3,8 @@ import "./App.css";
 import heroOne from "./images/desktop-image-hero-1.jpg";
 import heroTwo from "./images/desktop-image-hero-2.jpg";
 import heroThree from "./images/desktop-image-hero-3.jpg";
+import {TEXTS, HEADERS} from "./content.jsx";
+
 
 class App extends React.Component {
   constructor(props) {
@@ -11,6 +13,8 @@ class App extends React.Component {
     this.state = {
       image: heroOne,
       i: 0,
+      text: TEXTS,
+      headers: HEADERS,
     };
     this.slider = this.slider.bind(this);
     this.sliderBack = this.sliderBack.bind(this);
@@ -42,19 +46,15 @@ class App extends React.Component {
           </div>
           <div id="secondSquare">
             <section>
-              <h1>Discover innovative ways to decorate</h1> <br></br>
+              <h1>{this.state.headers[this.state.i]}</h1> <br></br>
               <p>
-                We provide unmatched quality, comfort, and style for property
-                owners across the country. Our experts combine form and function
-                in bringing your vision to life. Create a room in your own style
-                with our collection and make your property a reflection of you
-                and what you love.
-              </p>{" "}
+                  {this.state.text[this.state.i]}
+              </p>
               <br></br>
-              <a href="#">
+            </section>
+            <a href="#">
                 SHOP NOW<span>&#x2192;</span>
               </a>
-            </section>
             <div id="arrows">
               <div id="arrowOne" onClick={this.slider}>
                 {" "}

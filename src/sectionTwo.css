@@ -3,13 +3,21 @@
     width: 100vw;
     display: grid;
     grid-template-rows: 40vh;
-    grid-template-columns: 30vw 40vw 30vw;
+    grid-template-columns: 28vw 44vw 28vw;
 }
 
 #textAreaTwo {
-    width: 30vw;
+    width: 38vw;
     height: 35vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vh;
+    margin-top: 7vh;
+}
+
+#textAreaTwo h1 {
+    font-size: 1.1em;
+}
+
+#textAreaTwo section {
+    font-size: 0.9em;
 }

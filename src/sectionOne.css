@@ -3,7 +3,7 @@
     height: 60vh;
     display: grid;
     grid-template-rows: 60vh;
-    grid-template-columns: 60vw 40vw;
+    grid-template-columns: 55vw 45vw;
     position: relative;
 }
 
@@ -12,7 +12,11 @@
     height: 50vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vh;
+    margin-top: 5vh;
+}
+
+#textAreaOne section {
+    font-size: 0.9em;
 }
 
 a {
@@ -29,11 +33,11 @@ a:hover {
     background-color: black;
     color: white;
     border: 0;
-    width: 10vw;
-    height: 7vh;
+    width: 17vw;
+    height:10vh;
     position: absolute;
     bottom: 0;
-    left:60vw;
+    left:55vw;
     display: grid;
     grid-template-columns: 50% 50%;
 }

@@ -10,7 +10,7 @@ function SectionTwo(props) {
         <img src={darkImg} alt="furniture image" />
       </div>
       <div id="textAreaTwo">
-        <h1>About our furniture</h1>
+        <h1>About our furniture</h1><br></br>
         <section>
           Our multifunctional collection blends design and function to suit your
           individual taste. Make each room unique, or pick a cohesive theme that

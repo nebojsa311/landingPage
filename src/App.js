@@ -37,6 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        
         <SectionOne
           imageOne={this.state.image}
           HEADERS={HEADERS}

@@ -1,0 +1,15 @@
+#containerTwo {
+    height: 40vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 40vh;
+    grid-template-columns: 30vw 40vw 30vw;
+}
+
+#textAreaTwo {
+    width: 30vw;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+}

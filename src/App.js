@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import SectionOne from "./SectionOne.jsx";
 import SectionTwo from "./sectionTwo.jsx";
+import Navbar from "./Navbar.jsx";
 import heroOne from "./images/desktop-image-hero-1.jpg";
 import heroTwo from "./images/desktop-image-hero-2.jpg";
 import heroThree from "./images/desktop-image-hero-3.jpg";
@@ -37,7 +38,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        
+        <Navbar />
         <SectionOne
           imageOne={this.state.image}
           HEADERS={HEADERS}

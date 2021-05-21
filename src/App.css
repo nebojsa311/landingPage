@@ -5,3 +5,9 @@
     z-index: 1;
     position: relative;
 }
+
+@media only screen and (max-width: 800px) {
+    .App {
+        overflow: auto;
+    }
+}

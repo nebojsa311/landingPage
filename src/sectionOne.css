@@ -97,3 +97,26 @@ a:hover {
         left: 50vw;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    #container {
+        width: 100vw;
+        height: 100vh;
+        grid-template-rows: 50vh 50vh;
+        grid-template-columns: 100vw;
+    }
+
+    #textAreaOne {
+        width: 80vw;
+        margin-top: 5vh;
+    }
+
+    #textAreaOne section {
+        font-size: 1.0em;
+    }
+
+    #arrows {
+        left: 78vw;
+        top: 40vh;
+    }
+}

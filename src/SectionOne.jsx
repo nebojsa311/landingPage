@@ -9,7 +9,7 @@ function SectionOne(props) {
       <div id="textAreaOne">
         <h1>{props.HEADERS[props.valueI]}</h1><br></br>
         <section>{props.TEXTS[props.valueI]}</section><br></br>
-        <div>
+        <div >
           <a href="#">SHOP NOW{" "}
           <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg">
             <path

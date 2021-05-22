@@ -44,6 +44,8 @@ class App extends React.Component {
       let navWrapper = document.getElementById("navbarWrapper");
       let hamButton = document.getElementById("hamburger");
       let closeButton = document.getElementById("close");
+      let logo = document.getElementById("logo");
+      logo.style.display = "none";
       hamButton.style.display = "none";
       closeButton.style.display = "block";
       navOptions.style.display = "flex";

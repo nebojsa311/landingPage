@@ -12,7 +12,9 @@
     height: 50vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #textAreaOne section {
@@ -84,7 +86,6 @@ a:hover {
     #textAreaOne {
         width: 40vw;
         height: 50vh;
-        margin-top: 3vh;
     }
     
     #textAreaOne section {
@@ -98,7 +99,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 820px) {
     #container {
         width: 100vw;
         height: 100vh;
@@ -108,7 +109,10 @@ a:hover {
 
     #textAreaOne {
         width: 80vw;
-        margin-top: 5vh;
+    }
+
+    #textAreaOne h1 {
+        font-size: 1.4em;
     }
 
     #textAreaOne section {
@@ -118,5 +122,15 @@ a:hover {
     #arrows {
         left: 78vw;
         top: 40vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #textAreaOne h1 {
+        font-size: 1.2em;
+    }
+
+    #textAreaOne section {
+        font-size: 0.8em;
     }
 }

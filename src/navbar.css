@@ -16,6 +16,7 @@
   flex-basis: 20%;
   justify-content: space-around;
   margin-left: 1vw;
+  margin-top: 5vh;
 }
 
 .navOptions:hover {
@@ -45,6 +46,7 @@
 @media only screen and (max-width: 1087px) {
   #list {
     width: 42vw;
+    margin-top: 0;
   }
 }
 

@@ -32,6 +32,7 @@
   top: 3vh;
   left: 3vw;
   display: none;
+  transition: all 400ms;
 }
 
 #close {
@@ -41,11 +42,14 @@
   top: 3vh;
   left: 3vw;
   display: none;
+  transition: all 400ms;
 }
 
 @media only screen and (max-width: 1087px) {
   #list {
     width: 42vw;
+    position: relative;
+    top: -5px;
   }
 }
 
@@ -56,6 +60,7 @@
     background-color: transparent;
     width: 100vw;
     flex-basis: 20%;
+    transition: all 400ms;
   }
 
   #list {
@@ -63,6 +68,7 @@
     color: black;
     width: 75vw;
     margin: auto;
+    align-items: center;
   }
 
   .navOptions {

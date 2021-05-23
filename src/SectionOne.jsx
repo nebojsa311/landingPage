@@ -5,7 +5,7 @@ import "./sectionOne.css";
 function SectionOne(props) {
   return (
     <div id="container">
-      <img src={props.imageOne} alt="images of furniture" />
+      <img src={props.imageOne} alt="images of furniture" loading="lazy" />
       <div id="textAreaOne">
         <div><h1>{props.HEADERS[props.valueI]}</h1></div>
         <div><section>{props.TEXTS[props.valueI]}</section></div>

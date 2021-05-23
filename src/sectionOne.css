@@ -9,12 +9,11 @@
 
 #textAreaOne {
     width: 30vw;
-    height: 50vh;
+    height: 43vh;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    margin-top: 5vh;
 }
 
 #textAreaOne section {
@@ -85,7 +84,6 @@ a:hover {
 
     #textAreaOne {
         width: 40vw;
-        height: 50vh;
     }
     
     #textAreaOne section {
